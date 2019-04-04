@@ -20,7 +20,6 @@ exports.largestPrimeFactor = function (n) {
     }
     primeNumber = n;
   }
-  console.log(numberArray);
   return primeNumber;
 };
 console.log(exports.largestPrimeFactor(20))
